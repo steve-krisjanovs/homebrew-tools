@@ -6,16 +6,16 @@
 class ToneaiSetup < Formula
   desc "Setup wizard for ToneAI — AI-powered NUX MightyAmp tone assistant"
   homepage "https://github.com/steve-krisjanovs/toneai-nux-qr-ironbound"
-  version "1.1.5"
+  version "1.1.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/steve-krisjanovs/toneai-nux-qr-ironbound/releases/download/v1.1.5/toneai-setup-mac-arm64"
+      url "https://github.com/steve-krisjanovs/toneai-nux-qr-ironbound/releases/download/v1.1.6/toneai-setup-mac-arm64"
       sha256 "f082c276acd52b8752718bfffa471b860738e39c7c2082fe8e257a42ebc909e9"
     end
     on_intel do
-      url "https://github.com/steve-krisjanovs/toneai-nux-qr-ironbound/releases/download/v1.1.5/toneai-setup-mac-x64"
+      url "https://github.com/steve-krisjanovs/toneai-nux-qr-ironbound/releases/download/v1.1.6/toneai-setup-mac-x64"
       sha256 "84eb3f55d81000f874aa9130e2567572f1deeea9648f90a9d4db7a39d538d905"
     end
   end
