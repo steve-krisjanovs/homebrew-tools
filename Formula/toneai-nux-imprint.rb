@@ -6,17 +6,17 @@
 class ToneaiNuxImprint < Formula
   desc "Setup wizard for ToneAI — AI-powered NUX MightyAmp tone assistant"
   homepage "https://github.com/steve-krisjanovs/toneai-nux-imprint"
-  version "1.4.4"
+  version "1.4.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/steve-krisjanovs/toneai-nux-imprint/releases/download/v1.4.4/toneai-nux-imprint-mac-arm64"
-      sha256 "e89bccf8a098f594db9ce7275698b9f88b40dc1ec3e9230b5d0f3a32b9c79cdf"
+      url "https://github.com/steve-krisjanovs/toneai-nux-imprint/releases/download/v1.4.5/toneai-nux-imprint-mac-arm64"
+      sha256 "c15c6bb06eaa962c01cf0cb4a5969dbf055d19f9f71341e42ca8d98447e23170"
     end
     on_intel do
-      url "https://github.com/steve-krisjanovs/toneai-nux-imprint/releases/download/v1.4.4/toneai-nux-imprint-mac-x64"
-      sha256 "9e075c291786177ffd43ab0387ec307821530e085ac3e499b03d4043b868bfb3"
+      url "https://github.com/steve-krisjanovs/toneai-nux-imprint/releases/download/v1.4.5/toneai-nux-imprint-mac-x64"
+      sha256 "0877bb3761b5d3d8e9c199c6fdecc571292314409549d3f9deb0a6da0f9a462a"
     end
   end
 
