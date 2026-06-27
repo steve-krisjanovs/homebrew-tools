@@ -7,18 +7,18 @@
 
 class ToneaiNuxQr < Formula
   desc "AI-generated NUX MightyAmp QR tone presets for any song or album"
-  homepage "https://github.com/steve-krisjanovs/toneai-nux-cli"
-  version "1.4.0"
+  homepage "https://github.com/cordfuse/toneai-nux-cli"
+  version "1.5.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/steve-krisjanovs/toneai-nux-cli/releases/download/v#{version}/tnqr-mac-arm64"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      url "https://github.com/cordfuse/toneai-nux-cli/releases/download/v#{version}/tnqr-mac-arm64"
+      sha256 "48e17eb52bbe5171388189b49815977885bad921980c8fa6f1348382c92f31a3"
     end
     on_intel do
-      url "https://github.com/steve-krisjanovs/toneai-nux-cli/releases/download/v#{version}/tnqr-mac-x64"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      url "https://github.com/cordfuse/toneai-nux-cli/releases/download/v#{version}/tnqr-mac-x64"
+      sha256 "ffbfd5bed326e6607cc5772929598d85fbe85a17334de61f4e64d070b5dc4500"
     end
   end
 
